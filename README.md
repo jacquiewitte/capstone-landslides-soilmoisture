@@ -54,6 +54,7 @@ Read a subset of landslide events from Dataset (1) over Colorado only
 
 <H3>DELIVERABLES</H3>
 
-<P> - CSV of 2007-2016 Colorado Landslides with co-located GPM precipitation and soil moisture parameters from SMAP, ESA, and Landsat
+<P> - CSV of 2007-2016 Colorado Landslides with co-located GPM precipitation and soil moisture parameters from SMAP, ESA, and Landsat.
+<P> - CSV of time series of precipitation and soil moisture parameters leading up to a landslide.
 <P> - Jupyter notebook(s) of plots and analysis based on the CSV database.
 
