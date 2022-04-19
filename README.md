@@ -34,19 +34,28 @@ DATA:
 WORKFLOW:
 
 Read a subset of landslide events from Dataset (1) over Colorado only
-      <br> |
-      <br> |
-      <br> --> Read Datasets 2 - 5 --> match to time/location of Colorado Landslide event 
-      <br> 	   	   	 |
-<br>			 |
+<ul>
+  <li>|</li>
+  <li>--> Read Datasets 2 - 5 --> match to time/location of Colorado Landslide event</li>
+</ul>
+
+
+
+
+<br> |
+<br> --> Read Datasets 2 - 5 --> match to time/location of Colorado Landslide event 
+<br> 	   	   	 |
 <br>			 --> Nearest neighbor, area average parameters (depends on the data set)
-<br>			 |
 <br>			 |
 <br>			 --> Add data to the subsetted Dataset (1) as a dataFrame:
 <br>			     	    data source, measurement(s), etc. and export as CSV for future use 
 <br>			     	    |
-<br>				    |
 <br>				    --> time series plots of precipitation accumulation leading up to the landslide
 <br>				    --> correlation plots of SMAP vs ESA soil moisture
 <br>				    --> distribution plots SMAP, ESA, Landsat soils and GPM
+
+DELIVERABLES:
+
+<P> - CSV of 2007-2016 Colorado Landslides with co-located GPM precipitation and soil moisture parameters from SMAP, ESA, and Landsat
+<P> - Jupyter notebook of plots and analysis using the CSV database.
 
