@@ -38,7 +38,7 @@ where and when these landslides occur.
 
 <H3>WORKFLOW (through May)</H3>
 
-<img width="1327" alt="Screen Shot 2022-04-19 at 1 40 56 PM" src="https://user-images.githubusercontent.com/50637069/164082814-b3b11e74-a2d6-49ea-9036-eff079b964d9.png">
+<img width="1327" alt="Screen Shot 2022-04-19 at 1 42 02 PM" src="https://user-images.githubusercontent.com/50637069/164083011-ab4995c7-4dd3-4a90-9cd5-75ddaca3db38.png">
 
 
 <H3>DELIVERABLES</H3>
