@@ -1,5 +1,5 @@
 # ea-python-2022-capstone
-This is the repo for the 2022 Earth Lab Capstone project
+<H2>This is the repo for the 2022 Earth Lab Capstone project</H2>
 
 <u><b>TITLE</b></u>: Where can soil moisture improve rainfall-triggered landslide predictability?
 
@@ -24,6 +24,7 @@ where and when these landslides occur.
   <br> - netCDF3 format</li>
 
   <li>Landsat Normalized Difference Moisture Index
+  <br> - In Landsat 4-7, NDMI = (Band 4 – Band 5) / (Band 4 + Band 5).
   <br> - In Landsat 8, NDMI = (Band 5 – Band 6) / (Band 5 + Band 6).
   <br> - https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
   <br> - tif files through an API or download request</li>
@@ -47,11 +48,12 @@ Read a subset of landslide events from Dataset (1) over Colorado only
 <br>&emsp;&emsp;&emsp;&emsp;data source, measurement(s), etc. and export as CSV for future use 
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;|
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;--> time series plots of precipitation accumulation leading up to the landslide
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- note, this may be its own notebook
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;--> correlation plots of SMAP vs ESA soil moisture
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;--> distribution plots SMAP, ESA, Landsat soils and GPM
 
 <u><b>DELIVERABLES</u></b>
 
 <P> - CSV of 2007-2016 Colorado Landslides with co-located GPM precipitation and soil moisture parameters from SMAP, ESA, and Landsat
-<P> - Jupyter notebook of plots and analysis using the CSV database.
+<P> - Jupyter notebook(s) of plots and analysis based on the CSV database.
 
