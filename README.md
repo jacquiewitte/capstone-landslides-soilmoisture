@@ -38,19 +38,8 @@ where and when these landslides occur.
 
 <H3>WORKFLOW (through May)</H3>
 
-Read a subset of landslide events from Dataset (1) over Colorado only
-<br>&emsp;|
-<br>&emsp;--> Read Datasets 2 - 5 --> match to time/location of Colorado Landslide event 
-<br>&emsp;&emsp;|
-<br>&emsp;&emsp;--> Nearest neighbor, area average parameters (depends on the data set)
-<br>&emsp;&emsp;&emsp;|
-<br>&emsp;&emsp;&emsp;--> Add data to the subsetted Dataset (1) as a dataFrame:
-<br>&emsp;&emsp;&emsp;&emsp;data source, measurement(s), etc. and export as CSV for future use 
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;|
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;--> time series plots of precipitation accumulation leading up to the landslide
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- note, this may be its own notebook
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;--> correlation plots of SMAP vs ESA soil moisture
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;--> distribution plots SMAP, ESA, Landsat soils and GPM
+<img width="1327" alt="Screen Shot 2022-04-19 at 1 40 56 PM" src="https://user-images.githubusercontent.com/50637069/164082814-b3b11e74-a2d6-49ea-9036-eff079b964d9.png">
+
 
 <H3>DELIVERABLES</H3>
 
