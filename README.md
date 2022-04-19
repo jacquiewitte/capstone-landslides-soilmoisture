@@ -36,7 +36,7 @@ where and when these landslides occur.
   <br> - netCDF4 format</li>
 </ol>  
 
-<H3>WORKFLOW</H3>
+<H3>WORKFLOW (through May)</H3>
 
 Read a subset of landslide events from Dataset (1) over Colorado only
 <br>&emsp;|
