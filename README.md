@@ -15,7 +15,7 @@ where and when these landslides occur.
   <br>- Assembled and provided by Elsa Culler et al. in csv format.</li>
 
   <li>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004
-  <br> - Subsetting available via Earthdata
+  <br> - Subsetting available via Earthdata 
   <br> - https://search.earthdata.nasa.gov/search/granules?p=C1931665183-NSIDC_ECS&pg[0][v]=f&pg[0][gsk]=-start_date&q=SMAP%20Enhanced%20L3%20Radiometer%20Global%20Daily%209%20km%20EASE-Grid%20Soil%20Moisture%20V004&tl=1650327763.795!3!!
   <br> - HDF5 format</li>
 
@@ -24,11 +24,13 @@ where and when these landslides occur.
   <br> - netCDF3 format</li>
 
   <li>Landsat Normalized Difference Moisture Index
+  <br> - In Landsat 8, NDMI = (Band 5 – Band 6) / (Band 5 + Band 6).
   <br> - https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
-  <br> - tif files</li>
+  <br> - tif files through an API or download request</li>
 
   <li>GPM IMERG Late Precipitation L3 1 day 0.1 degree x 0.1 degree V06
-  <br> - Subsetting available via GES DISC using nearest neighbor gridding in Colorado Domain
+  <br> - Subsetting available via GES DISC over the Colorado Domain
+  <br> - Nearest neighbor remapping of fields between grids in spherical coordinates.
   <br> - https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDL_06/summary?keywords=%22IMERG%20late%22
   <br> - netCDF4 format</li>
 </ol>  
