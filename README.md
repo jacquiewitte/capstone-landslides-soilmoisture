@@ -1,37 +1,39 @@
 # ea-python-2022-capstone
 This is the repo for the 2022 Earth Lab Capstone project
 
-TITLE: Where can soil moisture improve rainfall-triggered landslide predictability?
+<u><b>TITLE</b></u>: Where can soil moisture improve rainfall-triggered landslide predictability?
 
-TEAM: Jacquie Witte
+<u><b>TEAM</b></u>: Jacquie Witte
 
-PURPOSE: Address the need to improve our understanding of landslides caused by rainfall. To better characterize
+<u><b>PURPOSE</u></b>: Address the need to improve our understanding of landslides caused by rainfall. To better characterize
 where and when these landslides occur.
 
-DATA:
+<u><b>DATA</u></b>
 
-(1) NASA Global Landslide Catalog (2007-2016)
-<br>    - Assembled and provided by Elsa Culler et al. in csv format.
+<ol type="1">
+  <li>NASA Global Landslide Catalog (2007-2016)
+  <br>- Assembled and provided by Elsa Culler et al. in csv format.</li>
 
-(2) NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004
-<br>    - Subsetting available via Earthdata
-<br>    - https://search.earthdata.nasa.gov/search/granules?p=C1931665183-NSIDC_ECS&pg[0][v]=f&pg[0][gsk]=-start_date&q=SMAP%20Enhanced%20L3%20Radiometer%20Global%20Daily%209%20km%20EASE-Grid%20Soil%20Moisture%20V004&tl=1650327763.795!3!!
-<br>    - HDF5 format
+  <li>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004
+  <br> - Subsetting available via Earthdata
+  <br> - https://search.earthdata.nasa.gov/search/granules?p=C1931665183-NSIDC_ECS&pg[0][v]=f&pg[0][gsk]=-start_date&q=SMAP%20Enhanced%20L3%20Radiometer%20Global%20Daily%209%20km%20EASE-Grid%20Soil%20Moisture%20V004&tl=1650327763.795!3!!
+  <br> - HDF5 format</li>
 
-(3) ESA Climate Change Initiative soil moisture version 03.3
-<br>    - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
-<br>    - netCDF3 format
+  <li>ESA Climate Change Initiative soil moisture version 03.3
+  <br> - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
+  <br> - netCDF3 format</li>
 
-(4) Landsat Normalized Difference Moisture Index
-<br>    - https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
-<br>    - tif files
+  <li>Landsat Normalized Difference Moisture Index
+  <br> - https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
+  <br> - tif files</li>
 
-(5) GPM IMERG Late Precipitation L3 1 day 0.1 degree x 0.1 degree V06
-<br>    - Subsetting available via GES DISC using nearest neighbor gridding in Colorado Domain
-<br>    - https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDL_06/summary?keywords=%22IMERG%20late%22
-<br>    - netCDF4 format
+  <li>GPM IMERG Late Precipitation L3 1 day 0.1 degree x 0.1 degree V06
+  <br> - Subsetting available via GES DISC using nearest neighbor gridding in Colorado Domain
+  <br> - https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDL_06/summary?keywords=%22IMERG%20late%22
+  <br> - netCDF4 format</li>
+</ol>  
 
-WORKFLOW:
+<u><b>WORKFLOW</u></b>
 
 Read a subset of landslide events from Dataset (1) over Colorado only
 <br>&emsp;|
@@ -46,7 +48,7 @@ Read a subset of landslide events from Dataset (1) over Colorado only
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;--> correlation plots of SMAP vs ESA soil moisture
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;--> distribution plots SMAP, ESA, Landsat soils and GPM
 
-DELIVERABLES:
+<u><b>DELIVERABLES</u></b>
 
 <P> - CSV of 2007-2016 Colorado Landslides with co-located GPM precipitation and soil moisture parameters from SMAP, ESA, and Landsat
 <P> - Jupyter notebook of plots and analysis using the CSV database.
