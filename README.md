@@ -34,25 +34,17 @@ DATA:
 WORKFLOW:
 
 Read a subset of landslide events from Dataset (1) over Colorado only
-<ul>
-  <li>|</li>
-  <li>--> Read Datasets 2 - 5 --> match to time/location of Colorado Landslide event</li>
-</ul>
-
-
-
-
-<br> |
-<br> --> Read Datasets 2 - 5 --> match to time/location of Colorado Landslide event 
-<br> 	   	   	 |
-<br>			 --> Nearest neighbor, area average parameters (depends on the data set)
-<br>			 |
-<br>			 --> Add data to the subsetted Dataset (1) as a dataFrame:
-<br>			     	    data source, measurement(s), etc. and export as CSV for future use 
-<br>			     	    |
-<br>				    --> time series plots of precipitation accumulation leading up to the landslide
-<br>				    --> correlation plots of SMAP vs ESA soil moisture
-<br>				    --> distribution plots SMAP, ESA, Landsat soils and GPM
+<br>&emsp;|
+<br>&emsp;--> Read Datasets 2 - 5 --> match to time/location of Colorado Landslide event 
+<br>&emsp;&emsp;|
+<br>&emsp;&emsp;--> Nearest neighbor, area average parameters (depends on the data set)
+<br>&emsp;&emsp;&emsp;|
+<br>&emsp;&emsp;&emsp;--> Add data to the subsetted Dataset (1) as a dataFrame:
+<br>&emsp;&emsp;&emsp;&emsp;data source, measurement(s), etc. and export as CSV for future use 
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;|
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;--> time series plots of precipitation accumulation leading up to the landslide
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;--> correlation plots of SMAP vs ESA soil moisture
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;--> distribution plots SMAP, ESA, Landsat soils and GPM
 
 DELIVERABLES:
 
