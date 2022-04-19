@@ -11,11 +11,11 @@ where and when these landslides occur.
 DATA:
 
 (1) NASA Global Landslide Catalog (2007-2016)
-    - Assembled and provided by Elsa Culler et al. in csv format.
+<br>    - Assembled and provided by Elsa Culler et al. in csv format.
 
 (2) NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004
-    - Subsetting available via Earthdata
-    - HDF5 format
+<br>    - Subsetting available via Earthdata
+<br>    - HDF5 format
 
 (3) ESA Climate Change Initiative soil moisture version 03.3
     - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
