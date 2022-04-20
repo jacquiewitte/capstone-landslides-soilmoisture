@@ -1,5 +1,5 @@
 # ea-python-2022-capstone
-<H1>This is the repo for the 2022 Earth Lab Capstone project</H1>
+<H1>Repo for the 2022 Earth Lab Capstone project</H1>
 
 <H3>TITLE</H3>Where can soil moisture improve rainfall-triggered landslide predictability?
 
@@ -16,7 +16,7 @@ where and when these landslides occur.
 
   <li>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004
   <br> - Subsetting available via Earthdata 
-  <br> - https://search.earthdata.nasa.gov
+  <br> - [title](https://search.earthdata.nasa.gov)
   <br> - HDF5 format</li>
 
   <li>ESA Climate Change Initiative soil moisture version 03.3
