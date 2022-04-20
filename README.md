@@ -16,7 +16,7 @@ where and when these landslides occur.
 
   <li>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004
   <br> - Subsetting available via Earthdata 
-  <br> - [title](https://search.earthdata.nasa.gov)
+  <br> - https://search.earthdata.nasa.gov
   <br> - HDF5 format</li>
 
   <li>ESA Climate Change Initiative soil moisture version 03.3
