@@ -17,7 +17,7 @@ where and when these landslides occur.
   <li>Code presented here is helpful to those who want to know how to read/extract soil moisture parameters measured from NASA, USGS, and ESA satellites. 
 </ul>
 
-<H3>Python packages</H3>The following are python packages to date required to run the current list of jupyter notbooks in this repo
+<H3>Python packages</H3>The following are python packages currently used to run the current list of jupyter notbooks in this repository.
 <ul type="disk">
   <li>os
   <li>glob
@@ -35,7 +35,7 @@ where and when these landslides occur.
   <li>xarray
 </ul>  
 
-<P>Using conda, install by typing 'conda install -c conda-forge <name of the package listed above>' 
+<P>Using conda, install by typing <b>'conda install -c conda-forge name-of-package-listed-above'</b> 
 <P>All python code are contained within Jupyter Notebooks and at the moment there is no order of notebooks to run. Each notebook is self contained and somewhat self-explanatory.   
     
 <H3>DATA & FORMATS</H3>
@@ -66,7 +66,7 @@ where and when these landslides occur.
   <br> - netCDF4 format</li>
 </ol>  
 
-<!--
+<!-- this has not so relevant
 <H3>WORKFLOW (through May)</H3>
 
 <img width="1327" alt="Screen Shot 2022-04-19 at 1 42 02 PM" src="https://user-images.githubusercontent.com/50637069/164083011-ab4995c7-4dd3-4a90-9cd5-75ddaca3db38.png">
