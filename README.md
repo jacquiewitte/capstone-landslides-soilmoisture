@@ -36,8 +36,10 @@ where and when these landslides occur.
 </ul>  
 
 <P>Using conda, install by typing 'conda install -c conda-forge <name of the package listed above>' 
-<P>Using pip, install by typing ''
-
+<P>All python code are contained within Jupyter Notebooks and at the moment there is no order of notebooks to run. Each notebook is self contained and somewhat self-explanatory.   
+  
+  
+  
 <H3>DATA</H3>
 
 <ol type="1">
