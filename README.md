@@ -1,4 +1,4 @@
-# ea-python-2022-capstone
+# capstone-landslides-soilmoisture
 <H1>Repo for the 2022 Earth Lab Capstone project</H1>
 
 <H3>TITLE</H3>Where can soil moisture improve rainfall-triggered landslide predictability?
