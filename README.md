@@ -5,8 +5,18 @@
 
 <H3>TEAM</H3>Jacquie Witte
 
-<H3>PURPOSE</H3> Address the need to improve our understanding of landslides caused by rainfall. To better characterize
+<H3>DESCRIPTION</H3>Landslide prediction is important. There are negative economic, transportation, and habitat impacts resulting from landslides. There are climate change implications where drought or heavier rains affect the number and severity of landslides. This project examines the relationship of soil moisture and precipitation over Colorado, USA. A lot of people live in the Rockies. It is a popular tourist destination year-round, people are moving into the Rockies - it’s a popular area, to say the least.
+
+<H3>PURPOSE</H3>Address the need to improve our understanding of landslides caused by rainfall. To better characterize
 where and when these landslides occur.
+
+<H3>CONTRIBUTIONS</H3>
+<ol type="1">
+  <li>Soil moisture can be a potential indicator of the type of rainfall induced landslide. We can use soil moisture data to group landslides into two types (1) shallow slope failures - saturation induced by rainfall infiltration and (2) run off driven landslides - triggered by intense storms.  This informs the forecaster which models and precipitation products are optimal to use to better predict a landslide event.
+
+  <li>Code presented here is helpful to those who want to know how to read/extract soil moisture parameters measured from NASA, USGS, and ESA satellites. 
+</ol>
+
 
 <H3>DATA</H3>
 
