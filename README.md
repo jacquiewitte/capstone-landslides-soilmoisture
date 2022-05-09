@@ -11,12 +11,32 @@
 where and when these landslides occur.
 
 <H3>CONTRIBUTIONS</H3>
-<ol type="1">
+<ul type="disk">
   <li>Soil moisture can be a potential indicator of the type of rainfall induced landslide. We can use soil moisture data to group landslides into two types (1) shallow slope failures - saturation induced by rainfall infiltration and (2) run off driven landslides - triggered by intense storms.  This informs the forecaster which models and precipitation products are optimal to use to better predict a landslide event.
 
   <li>Code presented here is helpful to those who want to know how to read/extract soil moisture parameters measured from NASA, USGS, and ESA satellites. 
-</ol>
+</ul>
 
+<H3>Python packages</H3>The following are python packages to date required to run the current list of jupyter notbooks in this repo
+<ul type="disk">
+  <li>os
+  <li>glob
+  <li>datetime
+  <li>earthpy
+  <li>geopandas
+  <li>folium
+  <li>h5py (pip install h5py)
+  <li>matplotlib
+  <li>numpy
+  <li>pandas
+  <li>re
+  <li>seaborn
+  <li>shapely
+  <li>xarray
+</ul>  
+
+<P>Using conda, install by typing 'conda install -c conda-forge <name of the package listed above>' 
+<P>Using pip, install by typing ''
 
 <H3>DATA</H3>
 
