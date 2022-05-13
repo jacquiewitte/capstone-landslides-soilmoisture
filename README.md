@@ -46,12 +46,13 @@ where and when these landslides occur by focussing the workflow on the state of 
   
 <H2>Workflow</H2>
 
-- The README.md file will be updated with guidance on the workflow.
+- The README.md file will be updated regularly with guidance on the workflow.
 - To run these notebooks, you need to have the data listed in the "Data & Formats" section below
 - At the moment, each notebook reads and plots the data separately to review whether the data resolution is enough to determine significant correlations and relationships between soil moisture and precipitation data collected thus far, with the Global Landslide Catalog:
 
   <ul type="disk">
     <li>landslide-esa_soilm_timeseries.ipynb - soil moisture comparison
+     <ul type="disk"><li>Works with the CSV output from output_esa_soilm_2007_2016.ipynb</ul>
     <li> landslide_smap_soilm_timeseries.ipynb - soil moisture comparison
     <li>landslide_gpm_precipaccum_timeseries.ipynb - precipitation comparison. 
   </ul>
@@ -60,6 +61,8 @@ where and when these landslides occur by focussing the workflow on the state of 
   
 <H2>Data & Formats</H2>
 
+<P>The README.md file will be updated regularly as data needs change.
+ 
 <ol type="1">
   <li>NASA Global Landslide Catalog (2007-2016)
   <br>- Assembled and provided by Elsa Culler et al. in csv format.</li>
