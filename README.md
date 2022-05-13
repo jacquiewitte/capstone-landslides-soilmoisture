@@ -57,7 +57,8 @@ where and when these landslides occur by focussing the workflow on the state of 
     <li>landslide_gpm_precipaccum_timeseries.ipynb - precipitation comparison. 
   </ul>
 
-- All plots are placed in the `plots/` folder as png files
+ <H3>Output</H3>
+<P>Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
   
 <H2>Data & Formats</H2>
 
