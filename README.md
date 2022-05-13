@@ -1,23 +1,21 @@
-# capstone-landslides-soilmoisture
-<H1>Repo for the 2022 Earth Lab Capstone project</H1>
+<H1>2022 Earth Lab Capstone project repository</H1>
 
-<H3>TITLE</H3>Where can soil moisture improve rainfall-triggered landslide predictability?
+<H1>Where can soil moisture improve rainfall-triggered landslide predictability?</H1>
 
-<H3>TEAM</H3>Jacquie Witte
+<H2>Description</H2>
+<P>Landslide prediction is important. There are negative economic, transportation, and habitat impacts resulting from landslides. There are climate change implications where drought or heavier rains affect the number and severity of landslides. The goal of this project is to examine the relationship of soil moisture and precipitation over Colorado, USA. A significant fraction of the Colorado population lives in the Rockies. It is also a popular tourist destination year-round and people are moving into the Rockies - it’s a popular area, to say the least.
 
-<H3>DESCRIPTION</H3>Landslide prediction is important. There are negative economic, transportation, and habitat impacts resulting from landslides. There are climate change implications where drought or heavier rains affect the number and severity of landslides. This project examines the relationship of soil moisture and precipitation over Colorado, USA. A lot of people live in the Rockies. It is a popular tourist destination year-round, people are moving into the Rockies - it’s a popular area, to say the least.
+<H2>Purpose</H2>To address the need to improve our understanding of landslides caused by rainfall. To better characterize
+where and when these landslides occur by focussing the workflow on the state of Colorado as a case study region.
 
-<H3>PURPOSE</H3>Address the need to improve our understanding of landslides caused by rainfall. To better characterize
-where and when these landslides occur.
-
-<H3>CONTRIBUTIONS</H3>
+<H2>Contributions</H2>
 <ul type="disk">
   <li>Soil moisture can be a potential indicator of the type of rainfall induced landslide. We can use soil moisture data to group landslides into two types (1) shallow slope failures - saturation induced by rainfall infiltration and (2) run off driven landslides - triggered by intense storms.  This informs the forecaster which models and precipitation products are optimal to use to better predict a landslide event.
 
   <li>Code presented here is helpful to those who want to know how to read/extract soil moisture parameters measured from NASA, USGS, and ESA satellites. 
 </ul>
 
-<H3>Python packages</H3>The following are python packages currently used to run the current list of jupyter notbooks in this repository.
+<H2>Python Packages Used</H2>The following are python packages currently used to run the current list of jupyter notbooks in this repository.
 <ul type="disk">
   <li>os
   <li>glob
@@ -36,9 +34,14 @@ where and when these landslides occur.
 </ul>  
 
 <P>Using conda, install by typing <b>'conda install -c conda-forge name-of-package-listed-above'</b> 
-<P>All python code are contained within Jupyter Notebooks and at the moment there is no order of notebooks to run. Each notebook is self contained and somewhat self-explanatory.   
-    
-<H3>DATA & FORMATS</H3>
+
+<H2>Notebooks</H2>
+
+All python notebooks are still in the development stage. All notebooks for testing code are placed in 
+  
+  
+
+<H2>DATA & FORMATS</H2>
 
 <ol type="1">
   <li>NASA Global Landslide Catalog (2007-2016)
