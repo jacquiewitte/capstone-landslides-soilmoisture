@@ -5,6 +5,9 @@
 <H2>Description</H2>
 <P>Landslide prediction is important. There are negative economic, transportation, and habitat impacts resulting from landslides. There are climate change implications where drought or heavier rains affect the number and severity of landslides. The goal of this project is to examine the relationship of soil moisture and precipitation over Colorado, USA. A significant fraction of the Colorado population lives in the Rockies. It is also a popular tourist destination year-round and people are moving into the Rockies - it’s a popular area, to say the least.
 
+ ![cnn_newsarticle_glenspringsLandslideCO](https://user-images.githubusercontent.com/50637069/168334226-23d48d21-6e83-4cc9-8e48-a37f61678e1e.png)
+ 
+  
 <H2>Purpose</H2>To address the need to improve our understanding of landslides caused by rainfall. To better characterize
 where and when these landslides occur by focussing the workflow on the state of Colorado as a case study region.
 
@@ -33,15 +36,29 @@ where and when these landslides occur by focussing the workflow on the state of 
   <li>xarray
 </ul>  
 
-<P>Using conda, install by typing <b>'conda install -c conda-forge name-of-package-listed-above'</b> 
+<P>Using conda, install by typing <b>`conda install -c conda-forge name-of-package-listed-above`</b> 
 
 <H2>Notebooks</H2>
 
-All python notebooks are still in the development stage. All notebooks for testing code are placed in 
+- All python notebooks are still in the development stage. 
+- When notebooks are final the tag `_final.ipynb` will be added to the fiename. 
+- All notebooks for testing code are placed in the folder `test_scripts/`. Code in here are exploratory only and should be ignored. Code from these notebooks are for development of the final notebooks. 
   
-  
+<H2>Workflow</H2>
 
-<H2>DATA & FORMATS</H2>
+- The README.md file will be updated with guidance on the workflow.
+- To run these notebooks, you need to have the data listed in the "Data & Formats" section below
+- At the moment, each notebook reads and plots the data separately to review whether the data resolution is enough to determine significant correlations and relationships between soil moisture and precipitation data collected thus far, with the Global Landslide Catalog:
+
+  <ul type="disk">
+    <li>landslide-esa_soilm_timeseries.ipynb - soil moisture comparison
+    <li> landslide_smap_soilm_timeseries.ipynb - soil moisture comparison
+    <li>landslide_gpm_precipaccum_timeseries.ipynb - precipitation comparison. 
+  </ul>
+
+- All plots are placed in the `plots/` folder as png files
+  
+<H2>Data & Formats</H2>
 
 <ol type="1">
   <li>NASA Global Landslide Catalog (2007-2016)
