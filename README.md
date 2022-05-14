@@ -65,8 +65,9 @@ where and when these landslides occur by focussing the workflow on the state of 
 <P>The README.md file will be updated regularly as data needs change.
  
 <ol type="1">
-  <li>NASA Global Landslide Catalog (2007-2016)
-  <br>- Assembled and provided by Elsa Culler et al. in csv format.</li>
+  <li>NASA Global Landslide Catalog (2007-2020)
+  <br>- https://maps.nccs.nasa.gov/arcgis/apps/MapAndAppGallery/index.html?appid=574f26408683485799d02e857e5d9521 
+  <br>- CSV format</li>
 
   <li>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004
   <br> - Subsetting available via Earthdata 
