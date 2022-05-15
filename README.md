@@ -52,12 +52,14 @@ where and when these landslides occur by focussing the workflow on the state of 
 - The data are co-located with 2015-2020 landslide events in Colorado using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). Notebooks can be run in the following order:
 
   <ol type="1">
-    <li>capstone-study-area-final.ipynb - an introduction the study region and GLC statistics over Colorado.
+    <li>capstone-study-area-final.ipynb
+     <ul type="disk"><li>an introduction the study region and GLC statistics over Colorado.</ul>
     <li>landslide-esa_soilm_timeseries.ipynb - soil moisture comparison
      <ul type="disk"><li>Works with the CSV output from output_esa_soilm_2007_2016.ipynb
        <li>This is still a work in progress. This analysis may not be included in the final project.
      </ul>
-    <li> landslide_precip_soilm.ipynb - Compares SMAP soil moisture and GPM precipitation
+    <li> landslide_precip_soilm.ipynb
+     <ul type="disk"><li>Compares SMAP soil moisture and GPM precipitation</ul>
   </oll>
 
  <H3>Output</H3>
