@@ -54,7 +54,9 @@ where and when these landslides occur by focussing the workflow on the state of 
   <ol type="1">
     <li>capstone-study-area-final.ipynb - an introduction the study region and GLC statistics over Colorado.
     <li>landslide-esa_soilm_timeseries.ipynb - soil moisture comparison
-     <ul type="disk"><li>Works with the CSV output from output_esa_soilm_2007_2016.ipynb</ul>
+     <ul type="disk"><li>Works with the CSV output from output_esa_soilm_2007_2016.ipynb
+       <li>This is still a work in progress. This analysis may not be included in the final project.
+     </ul>
     <li> landslide_precip_soilm.ipynb - Compares SMAP soil moisture and GPM precipitation
   </oll>
 
