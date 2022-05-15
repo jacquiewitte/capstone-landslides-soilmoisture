@@ -53,8 +53,7 @@ where and when these landslides occur by focussing the workflow on the state of 
   <ul type="disk">
     <li>landslide-esa_soilm_timeseries.ipynb - soil moisture comparison
      <ul type="disk"><li>Works with the CSV output from output_esa_soilm_2007_2016.ipynb</ul>
-    <li> landslide_smap_soilm_timeseries.ipynb - soil moisture comparison
-    <li>landslide_gpm_precipaccum_timeseries.ipynb - precipitation comparison. 
+    <li> landslide_precip_soilm.ipynb - Compares SMAP soil moisture and GPM precipitation
   </ul>
 
  <H3>Output</H3>
