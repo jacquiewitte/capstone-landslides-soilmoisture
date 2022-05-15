@@ -48,13 +48,15 @@ where and when these landslides occur by focussing the workflow on the state of 
 
 - The README.md file will be updated regularly with guidance on the workflow.
 - To run these notebooks, you need to have the data listed in the "Data & Formats" section below
-- At the moment, each notebook reads and plots the data separately to review whether the data resolution is enough to determine significant correlations and relationships between soil moisture and precipitation data collected thus far, with the Global Landslide Catalog:
+- I am at the stage of determining whether the data resolution and covereage is enough to determine significant correlations and relationships between soil moisture and precipitation data collected thus far.
+- The data are co-located with 2015-2020 landslide events in Colorado using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). Notebooks can be run in the following order:
 
-  <ul type="disk">
+  <ol type="1">
+    <li>capstone-study-area-final.ipynb - an introduction the study region and GLC statistics over Colorado.
     <li>landslide-esa_soilm_timeseries.ipynb - soil moisture comparison
      <ul type="disk"><li>Works with the CSV output from output_esa_soilm_2007_2016.ipynb</ul>
     <li> landslide_precip_soilm.ipynb - Compares SMAP soil moisture and GPM precipitation
-  </ul>
+  </oll>
 
  <H3>Output</H3>
 <P>Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
