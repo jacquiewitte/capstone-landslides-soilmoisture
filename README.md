@@ -81,12 +81,6 @@ where and when these landslides occur by focussing the workflow on the state of 
   <br> - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
   <br> - netCDF3 format</li>
 
-  <li>Landsat Normalized Difference Moisture Index
-  <br> - In Landsat 4-7, NDMI = (Band 4 – Band 5) / (Band 4 + Band 5).
-  <br> - In Landsat 8, NDMI = (Band 5 – Band 6) / (Band 5 + Band 6).
-  <br> - https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
-  <br> - tif files through an API or download request</li>
-
   <li>GPM IMERG Late Precipitation L3 1 day 0.1 degree x 0.1 degree V06
   <br> - Subsetting available via GES DISC over the Colorado Domain
   <br> - Nearest neighbor remapping of fields between grids in spherical coordinates.
@@ -94,6 +88,15 @@ where and when these landslides occur by focussing the workflow on the state of 
   <br> - netCDF4 format</li>
 </ol>  
 
+ <H3>Additional data that may be included in this project</H3>
+ 
+<ul type="disk">
+  <li>Landsat Normalized Difference Moisture Index
+  <br> - In Landsat 4-7, NDMI = (Band 4 – Band 5) / (Band 4 + Band 5).
+  <br> - In Landsat 8, NDMI = (Band 5 – Band 6) / (Band 5 + Band 6).
+  <br> - https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
+  <br> - tif files through an API or download request</li> 
+</ul>
 <!-- this has not so relevant
 <H3>WORKFLOW (through May)</H3>
 
