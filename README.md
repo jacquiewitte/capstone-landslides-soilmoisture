@@ -36,8 +36,19 @@ where and when these landslides occur by focussing the workflow on the state of 
   <li>xarray
 </ul>  
 
-<P>Using conda, install by typing <b>`conda install -c conda-forge name-of-package-listed-above`</b> 
+<P>To install packages separately, using conda, type <b>`conda install -c conda-forge name-of-package-listed-above`</b> 
 
+ 
+ <H3>Installing the capstone-landslides-soilmoisture Conda Environment</H3>
+
+This repository contains a file called `environment.yml` that contains the python packages to install the capstone-landslides-soilmoisture environment. Included is installation of Jupyter notebook and it's dependencies. 
+
+- Clone/Fork this repository. 
+- Once you are in the capstone-landslides-soilmoisture directory, you can create the environment. To do this run: `conda env create -f environment.yml`.
+- Once the environment is installed you can activate it using: `conda activate capstone-landslides-soilmoisture`.
+- To view a list of all conda environments available on your machine run: `conda info --envs`.
+- To view a list of all conda packages installed in capstone-landslides-soilmoisture run: `conda list`.
+ 
 <H2>Notebooks</H2>
 
 - All python notebooks are still in the development stage. 
