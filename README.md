@@ -1,4 +1,4 @@
-<H1>2022 Earth Lab Capstone project repository</H1>
+<H1>capstone-landslides-soilmoisture project repository</H1>
 
 <H1>Where can soil moisture improve rainfall-triggered landslide predictability?</H1>
 
