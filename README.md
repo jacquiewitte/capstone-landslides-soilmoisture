@@ -70,20 +70,20 @@ where and when these landslides occur by focussing the workflow on the state of 
 <P>The README.md file will be updated regularly as data needs change.
  
 <ol type="1">
-  <li>NASA Global Landslide Catalog (2007-2020)
+ <li><b>NASA Global Landslide Catalog (2007-2020)</b>
   <br>- https://maps.nccs.nasa.gov/arcgis/apps/MapAndAppGallery/index.html?appid=574f26408683485799d02e857e5d9521 
   <br>- CSV format</li>
 
-  <li>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004
+ <li><b>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004</b>
   <br> - Subsetting available via Earthdata 
   <br> - https://search.earthdata.nasa.gov
   <br> - HDF5 format</li>
 
-  <li>ESA Climate Change Initiative soil moisture version 03.3
+ <li><b>ESA Climate Change Initiative soil moisture version 03.3</b>
   <br> - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
   <br> - netCDF3 format</li>
 
-  <li>GPM IMERG Late Precipitation L3 1 day 0.1 degree x 0.1 degree V06
+ <li><b>GPM IMERG Late Precipitation L3 1 day 0.1 degree x 0.1 degree V06</b>
   <br> - Subsetting available via GES DISC over the Colorado Domain
   <br> - Nearest neighbor remapping of fields between grids in spherical coordinates.
   <br> - https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDL_06/summary?keywords=%22IMERG%20late%22
@@ -93,7 +93,7 @@ where and when these landslides occur by focussing the workflow on the state of 
  <H3>Additional data that may be included in this project</H3>
  
 <ul type="disk">
-  <li>Landsat Normalized Difference Moisture Index
+ <li><b>Landsat Normalized Difference Moisture Index</b>
   <br> - In Landsat 4-7, NDMI = (Band 4 – Band 5) / (Band 4 + Band 5).
   <br> - In Landsat 8, NDMI = (Band 5 – Band 6) / (Band 5 + Band 6).
   <br> - https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
