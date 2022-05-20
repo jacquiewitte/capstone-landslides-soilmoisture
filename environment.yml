@@ -1,0 +1,49 @@
+name: capstone-landslides-soilmoisture
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - pip
+  
+  # Core scientific python
+  - numpy
+  - h5py
+  - pandas
+  - geopandas
+  - re
+  - datetime
+  
+  # Plotting
+  - matplotlib
+  - seaborn
+
+  # Spatial packages
+  - earthpy
+  - folium
+  - geojson
+  - mapboxgl
+  - hydrofunctions
+  - xarray
+  - rioxarray>=0.3.0
+  - scipy
+  - shapely
+  - netcdf4
+  - nc-time-axis
+  - regionmask
+
+  # Natural language processing
+  - nltk
+  - textblob
+
+  # Jupyter Environment
+  - papermill
+  - autopep8
+  - jupyterlab
+  - notebook
+  - ipython
+  - jupyter_contrib_nbextensions
+  - nbclean
+  - nbresuse
+  
