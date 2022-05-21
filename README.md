@@ -90,7 +90,7 @@ This repository contains a file called `environment.yml` that contains the pytho
   <br> - https://search.earthdata.nasa.gov
   <br> - HDF5 format</li>
 
- <li><b>ESA Climate Change Initiative soil moisture 0.25 degree x 0.25 degree V03.3</b>
+ <li><b>ESA Climate Change Initiative (CCI) soil moisture 0.25 degree x 0.25 degree V03.3</b>
   <br> - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
   <br> - netCDF3 format</li>
 
