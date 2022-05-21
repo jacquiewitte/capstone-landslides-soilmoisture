@@ -83,6 +83,7 @@ This repository contains a file called `environment.yml` that contains the pytho
 <ol type="1">
  <li><b>NASA Global Landslide Catalog (2007-2020)</b>
   <br>- https://maps.nccs.nasa.gov/arcgis/apps/MapAndAppGallery/index.html?appid=574f26408683485799d02e857e5d9521 
+  <br>- https://doi.org/10.1007/s11069-009-9401-4
   <br>- CSV format</li>
 
  <li><b>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004</b>
@@ -93,12 +94,14 @@ This repository contains a file called `environment.yml` that contains the pytho
 
  <li><b>ESA Climate Change Initiative (CCI) soil moisture 0.25 degree x 0.25 degree V03.3</b>
   <br> - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
+  <br> - https://doi.org/10.1016/j.rse.2012.03.014;
   <br> - netCDF3 format</li>
 
  <li><b>GPM IMERG Late Precipitation L3 1 day 0.1 degree x 0.1 degree V06</b>
   <br> - Subsetting available via GES DISC over the Colorado Domain
   <br> - Nearest neighbor remapping of fields between grids in spherical coordinates.
   <br> - https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDL_06/summary?keywords=%22IMERG%20late%22
+  <br> - https://doi.org/10.5067/GPM/IMERGDL/DAY/06
   <br> - netCDF4 format</li>
 </ol>  
 
@@ -111,6 +114,7 @@ This repository contains a file called `environment.yml` that contains the pytho
   <br> - https://www.usgs.gov/landsat-missions/normalized-difference-moisture-index
   <br> - tif files through an API or download request</li> 
 </ul>
+ 
 <!-- this has not so relevant
 <H3>WORKFLOW (through May)</H3>
 
