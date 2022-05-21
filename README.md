@@ -88,6 +88,7 @@ This repository contains a file called `environment.yml` that contains the pytho
  <li><b>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004</b>
   <br> - Subsetting available via Earthdata 
   <br> - https://search.earthdata.nasa.gov
+  <br> - https://doi.org/10.5067/NJ34TQ2LFE90
   <br> - HDF5 format</li>
 
  <li><b>ESA Climate Change Initiative (CCI) soil moisture 0.25 degree x 0.25 degree V03.3</b>
