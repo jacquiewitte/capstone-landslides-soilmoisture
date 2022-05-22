@@ -65,12 +65,8 @@ This repository contains a file called `environment.yml` that contains the pytho
   <ol type="1">
     <li>capstone-study-area-final.ipynb
      <ul type="disk"><li>an introduction the study region and GLC statistics over Colorado.</ul>
-    <li>landslide-esa_soilm_timeseries.ipynb - soil moisture comparison
-     <ul type="disk"><li>Works with the CSV output from output_esa_soilm_2007_2016.ipynb
-       <li>This is still a work in progress. This analysis may not be included in the final project.
-     </ul>
     <li> landslide_precip_soilm.ipynb
-     <ul type="disk"><li>Compares SMAP soil moisture and GPM precipitation</ul>
+     <ul type="disk"><li>Compares SMAP and ESA CCI soil moistures with GPM precipitation</ul>
   </oll>
 
  <H3>Output</H3>
