@@ -62,8 +62,10 @@ This repository contains a file called `environment.yml` that contains the pytho
 <H2>Workflow</H2>
 
 - The README.md file will be updated regularly with guidance on the workflow.
-- To run these notebooks, you need to have the data listed in the "Data & Formats" section below
-- I am at the stage of determining whether the data resolution and covereage is enough to determine significant correlations and relationships between soil moisture and precipitation data collected thus far.
+- To run these notebooks, you need to download the data listed in the "Data & Formats" section below
+   - <b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
+   - Links to the data used in this study are provided in the "Data & Formats" section below
+- I am at the stage of determining whether the data resolution and coverage is enough to determine significant correlations and relationships between soil moisture and precipitation data collected thus far.
 - The data are co-located with 2015-2020 landslide events in Colorado using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). Notebooks can be run in the following order:
 
   <ol type="1">
