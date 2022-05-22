@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/471110606.svg)](https://zenodo.org/badge/latestdoi/471110606)
+
 <H1>capstone-landslides-soilmoisture project repository</H1>
 
 <H1>Where can soil moisture improve rainfall-triggered landslide predictability?</H1>
@@ -65,12 +67,8 @@ This repository contains a file called `environment.yml` that contains the pytho
   <ol type="1">
     <li>capstone-study-area-final.ipynb
      <ul type="disk"><li>an introduction the study region and GLC statistics over Colorado.</ul>
-    <li>landslide-esa_soilm_timeseries.ipynb - soil moisture comparison
-     <ul type="disk"><li>Works with the CSV output from output_esa_soilm_2007_2016.ipynb
-       <li>This is still a work in progress. This analysis may not be included in the final project.
-     </ul>
     <li> landslide_precip_soilm.ipynb
-     <ul type="disk"><li>Compares SMAP soil moisture and GPM precipitation</ul>
+     <ul type="disk"><li>Compares SMAP and ESA CCI soil moistures with GPM precipitation</ul>
   </oll>
 
  <H3>Output</H3>
@@ -92,7 +90,7 @@ This repository contains a file called `environment.yml` that contains the pytho
   <br> - https://doi.org/10.5067/NJ34TQ2LFE90
   <br> - HDF5 format</li>
 
- <li><b>ESA Climate Change Initiative (CCI) soil moisture 0.25 degree x 0.25 degree V03.3</b>
+ <li><b>ESA Climate Change Initiative (CCI) ACTIVE soil moisture 0.25 degree x 0.25 degree V03.3</b>
   <br> - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
   <br> - https://doi.org/10.1016/j.rse.2012.03.014;
   <br> - netCDF3 format</li>
