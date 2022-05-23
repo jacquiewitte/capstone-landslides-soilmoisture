@@ -23,15 +23,12 @@ dependencies:
   - earthpy
   - folium
   - geojson
-  - mapboxgl
-  - hydrofunctions
   - xarray
   - rioxarray>=0.3.0
   - scipy
   - shapely
   - netcdf4
   - nc-time-axis
-  - regionmask
 
   # Natural language processing
   - nltk
