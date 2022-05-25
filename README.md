@@ -84,30 +84,41 @@ This repository contains a file called `environment.yml` that contains the pytho
  
 <ol type="1">
  <li><b>NASA Global Landslide Catalog (2007-2020)</b>
-  <br> - https://maps.nccs.nasa.gov/arcgis/apps/MapAndAppGallery/index.html?appid=574f26408683485799d02e857e5d9521 
-  <br> - From the list of downloadables, choose `NASA Global Landslide Catalog Points (CSV)`
-  <br> - https://doi.org/10.1007/s11069-009-9401-4
-  <br> - CSV format</li>
+  <ul type="disk">
+     <li> LINK: https://maps.nccs.nasa.gov/arcgis/apps/MapAndAppGallery/index.html?appid=574f26408683485799d02e857e5d9521 
+     <li> Instructions: From the list of downloadables, choose `NASA Global Landslide Catalog Points (CSV)`
+     <li> Citation: https://doi.org/10.1007/s11069-009-9401-4
+     <li> Format: CSV format
+  </ul>
+ </li>
 
  <li><b>NASA SMAP Enhanced L3 Radiometer Global Daily 9 km EASE-Grid Soil Moisture V004</b>
-  <br> - Data downloadable via Earthdata: https://search.earthdata.nasa.gov
-  <br> - Search under 'SMAP soil moisture' and find the dataset that matches the title above.
-  <br> - NOTE: Subsetting is ignored so global files are downloaded.
-  <br> - https://doi.org/10.5067/NJ34TQ2LFE90
-  <br> - HDF5 format</li>
+    <ul type="disk">
+       <li> LINK: Data downloadable via Earthdata: https://search.earthdata.nasa.gov
+       <li> Instructions: Search under 'SMAP soil moisture' and find the dataset that matches the title above. NOTE: Subsetting is ignored so global files are downloaded.
+       <li> Citation: https://doi.org/10.5067/NJ34TQ2LFE90
+       <li> Format: HDF5 format
+    </ul>
+  </li>
 
  <li><b>ESA Climate Change Initiative (CCI) ACTIVE soil moisture 0.25 degree x 0.25 degree V03.3</b>
-  <br> - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
-  <br> - Choose the 'ACTIVE' dataset which calculates the percent saturation soil moisture.
-  <br> - https://doi.org/10.1016/j.rse.2012.03.014
-  <br> - netCDF3 format</li>
+    <ul type="disk">  
+       <li> LINK: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-soil-moisture?tab=overview
+       <li> Instructions: Choose the 'ACTIVE' dataset which calculates the percent saturation soil moisture.
+       <li> Citation: https://doi.org/10.1016/j.rse.2012.03.014
+       <li> Format: netCDF3 format
+    </ul>
+  </li>
 
  <li><b>GPM IMERG Late Precipitation L3 1 day 0.1 degree x 0.1 degree V06</b>
-  <br> - Subsetting available via GES DISC over the globe. You can choose Colorado or any state(s) of interest. 
-  <br> - Nearest neighbor remapping of fields between grids in spherical coordinates.
-  <br> - https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDL_06/summary?keywords=%22IMERG%20late%22
-  <br> - https://doi.org/10.5067/GPM/IMERGDL/DAY/06
-  <br> - netCDF4 format</li>
+    <ul type="disk"> 
+       <li> LINK: https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDL_06/summary?keywords=%22IMERG%20late%22
+       <li> Instructions: Subsetting available via GES DISC over the globe. You can choose Colorado or any state(s) of interest. 
+       <li> Nearest neighbor remapping of fields between grids in spherical coordinates.
+       <li> Citation: https://doi.org/10.5067/GPM/IMERGDL/DAY/06
+       <li> Format: netCDF4 format
+  </ul>
+  </li>
 </ol>  
 
  
