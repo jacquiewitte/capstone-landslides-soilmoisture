@@ -68,31 +68,24 @@ This repository contains a file called `environment.yml` that contains the pytho
 
 <H4>Data Directories</H4>
 
-<ul type="disk">
- <li> To run these notebooks, you need to download <b>daily 2015-2020</b> data listed in the "Data & Formats" section below
-    <ul type="disk">
-       <li><b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
-       <li>Links to the data and instructions on what specifically to download are provided used in this study are provided in the "Data & Formats" section below
-    </ul>
+* To run these notebooks, you need to download <b>daily 2015-2020</b> data listed in the "Data & Formats" section below
+   * <b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
+   * Links to the data and instructions on what specifically to download are provided used in this study are provided in the "Data & Formats" section below
+
   
- <li>Data directory structure under your home space (Mac/Linux syntax shown below)
-    <ul type="disk"> 
-       <li>GLC data directory: `earth-analytics/data/capstone/landslide`
-       <li>GPM daily precipitation directory: `earth-analytics/data/capstone/gpm_westernUS`
-       <li>SMAP daily soil moisture directory:  `earth-analytics/data/capstone/smap_9km`
-       <li>ESA CCI soil moisture directory: `earth-analytics/data/capstone/esa_soil_moisture`
-    </ul>
-</ul>
- 
+* Data directory structure under your home space (Mac/Linux syntax shown below)
+  * GLC data directory: `earth-analytics/data/capstone/landslide`
+  * GPM daily precipitation directory: `earth-analytics/data/capstone/gpm_westernUS`
+  * SMAP daily soil moisture directory:  `earth-analytics/data/capstone/smap_9km`
+  * ESA CCI soil moisture directory: `earth-analytics/data/capstone/esa_soil_moisture`
+
  
 <H4>Python Notebooks can be run in the following order:</H4>
  
- <ol type="1">
-    <li>capstone-study-area-final.ipynb
-       <ul type="disk"><li>an introduction the study region and GLC statistics over Colorado.</ul>
-    <li> landslide_precip_soilm.ipynb
-       <ul type="disk"><li>Compares SMAP and ESA CCI soil moistures with GPM precipitation</ul>
- </ol>
+1. capstone-study-area-final.ipynb
+      * An introduction the study region and GLC statistics over Colorado.
+2. landslide_precip_soilm.ipynb
+      * Compares SMAP and ESA CCI soil moistures with GPM precipitation
 
  
 <H4>Output</H4>
