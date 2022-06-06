@@ -35,6 +35,7 @@ where and when these landslides occur by focussing the workflow on the state of 
   <li>numpy
   <li>pandas
   <li>re
+  <li>scipy
   <li>seaborn
   <li>shapely
   <li>xarray
