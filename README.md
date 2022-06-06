@@ -62,21 +62,35 @@ This repository contains a file called `environment.yml` that contains the pytho
 <H2>Workflow</H2>
 
 - The README.md file will be updated regularly with guidance on the workflow.
-- To run these notebooks, you need to download the data listed in the "Data & Formats" section below
-   - <b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
-   - Links to the data and instructions on what specifically to download are provided used in this study are provided in the "Data & Formats" section below
 - I am at the stage of determining whether the data resolution and coverage is enough to determine significant correlations and relationships between soil moisture and precipitation data collected thus far.
-- The data are co-located with 2015-2020 landslide events in Colorado using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). Notebooks can be run in the following order:
+- The data are co-located with 2015-2020 landslide events in Colorado using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). 
+- Eventually csv files will be created that ties all the data together and can be read using the pandas package. 
 
-  <ol type="1">
-    <li>capstone-study-area-final.ipynb
-     <ul type="disk"><li>an introduction the study region and GLC statistics over Colorado.</ul>
-    <li> landslide_precip_soilm.ipynb
-     <ul type="disk"><li>Compares SMAP and ESA CCI soil moistures with GPM precipitation</ul>
-  </oll>
+<H4>Data Directories</H4>
 
- <H3>Output</H3>
-<P>Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
+* To run these notebooks, you need to download <b>daily 2015-2020</b> data listed in the "Data & Formats" section below
+   * <b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
+   * Links to the data and instructions on what specifically to download are provided used in this study are provided in the "Data & Formats" section below
+
+  
+* Data directory structure under your home space (Mac/Linux syntax shown below)
+  * GLC data directory: `earth-analytics/data/capstone/landslide`
+  * GPM daily precipitation directory: `earth-analytics/data/capstone/gpm_westernUS`
+  * SMAP daily soil moisture directory:  `earth-analytics/data/capstone/smap_9km`
+  * ESA CCI soil moisture directory: `earth-analytics/data/capstone/esa_soil_moisture`
+
+ 
+<H4>Python Notebooks can be run in the following order:</H4>
+ 
+1. capstone-study-area-final.ipynb
+      * An introduction the study region and GLC statistics over Colorado.
+2. landslide_precip_soilm.ipynb
+      * Compares SMAP and ESA CCI soil moistures with GPM precipitation
+
+ 
+<H4>Output</H4>
+ 
+ <P>Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
   
 <H2>Data & Formats</H2>
 
