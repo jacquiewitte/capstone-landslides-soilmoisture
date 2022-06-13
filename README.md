@@ -133,18 +133,18 @@ This repository contains a file called `environment.yml` that contains the pytho
        <li> Nearest neighbor remapping of fields between grids in spherical coordinates.
        <li> Citation: https://doi.org/10.5067/GPM/IMERGDL/DAY/06
        <li> Format: netCDF4 format
-  </ul>
+    </ul>
   </li>
-</ol>  
+ 
  <li><b>GPM IMERG Final Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V06</b>
     <ul type="disk"> 
        <li> This capstone uses data assembled and saved in CSV format by Dr. Elsa Culler (CU-Boulder).
        <li> Instructions: To have request these data please email Elsa.Culler@colorado.edu
        <li> Citation: https://doi.org/10.5067/GPM/IMERG/3B-HH/06
        <li> Format: CSV
-  </ul>
+    </ul>
   </li>
-</ol>  
+ </ol>  
  
 <!-- this has not so relevant
 <H3>WORKFLOW (through May)</H3>
