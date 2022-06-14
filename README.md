@@ -138,8 +138,8 @@ This repository contains a file called `environment.yml` that contains the pytho
  
  <li><b>GPM IMERG Final Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V06</b>
     <ul type="disk"> 
-       <li> This capstone uses data assembled and saved in CSV format by Dr. Elsa Culler (CU-Boulder).
-       <li> Instructions: To have request these data please email Elsa.Culler@colorado.edu
+       <li> This capstone uses 30 min GPM IMERG data pre-assembled and saved in CSV format by Dr. Elsa Culler (CU-Boulder). The beauty of this data set is that precipitation values have been subset and co-located with GLC landslides by their ID, latitude, and longitude. 
+       <li> Instructions: Request this data set by emailing Elsa.Culler@colorado.edu
        <li> Citation: https://doi.org/10.5067/GPM/IMERG/3B-HH/06
        <li> Format: CSV
     </ul>
