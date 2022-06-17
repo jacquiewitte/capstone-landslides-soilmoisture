@@ -63,10 +63,10 @@ This repository contains a file called `environment.yml` that contains the pytho
 <H2>Workflow</H2>
 
 - The README.md file will be updated regularly with guidance on the workflow.
-- I am at the stage of determining whether the data resolution and coverage is enough to determine significant correlations and relationships between soil moisture and precipitation data collected thus far.
-- The data are co-located with 2015-2020 landslide events in Colorado using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). 
-- Eventually csv files will be created that ties all the data together and can be read using the pandas package. 
-
+- The data are co-located with 2015-2020 landslide events in Colorado and other US states affected by landslides using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). 
+- CSV files have been created at stored in the `data/` folder that ties all the various soil and precipitation data together and can be read using the pandas package. 
+- If users simply want to work with the result, the can clone this repo and work with the CSV data files contained in the `data/` folder
+ 
 <H4>Data Directories</H4>
 
 * To run these notebooks, you need to download <b>daily 2015-2020</b> data listed in the "Data & Formats" section below
@@ -97,7 +97,7 @@ This repository contains a file called `environment.yml` that contains the pytho
           <li> Oregon
           <li> Washington
         </ul>
-      * The result are two a pandas dataFrames that is exported to the `data/` folder. For example,
+      * The result are two a pandas dataFrames that are exported to the `data/` folder. For example,
  
          - `glc_smap_esa_gpm_2015-2020_Colorado.csv` contains the 7-day accummulated precipitation and maximum soil moisture co-located to a GLC landslide.
  
@@ -106,7 +106,8 @@ This repository contains a file called `environment.yml` that contains the pytho
 3. landslide_precip_soilm_DataAnalyses_final.ipynb
       * Plot analysis that reads the exported CSV files created by `landslide_precip_soilm_DataExport_final.ipynb` above.
       * Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
-  
+ 
+ 
 <H2>Data & Formats</H2>
 
 <P>The README.md file will be updated regularly as data needs change.
