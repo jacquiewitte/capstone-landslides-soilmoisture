@@ -86,13 +86,26 @@ This repository contains a file called `environment.yml` that contains the pytho
  
 1. capstone-study-area-final.ipynb
       * An introduction the study region and GLC statistics over Colorado.
-2. landslide_precip_soilm.ipynb
-      * Compares SMAP and ESA CCI soil moistures with GPM precipitation
+2. landslide_precip_soilm_DataExport_final.ipynb
+      * Co-located SMAP and ESA CCI soil moistures with GPM precipitation products (daily and 30 min resolutions)
+      * Users can choose a US state where landslides are archived in the GLC. Currently, the following states are included:
+        <ul>
+          <li> Colorado
+          <li> Idaho
+          <li> Utah
+          <li> California
+          <li> Oregon
+          <li> Washington
+        </ul>
+      * The result are two a pandas dataFrames that is exported to the `data/` folder. For example,
+ 
+         - `glc_smap_esa_gpm_2015-2020_Colorado.csv` contains the 7-day accummulated precipitation and maximum soil moisture co-located to a GLC landslide.
+ 
+         - `glc_smap_esa_gpm_2015-2020_7day_Colorado.csv` contains the precipitation and soil moisture co-located to a GLC landslide going back for 7-days prior to the landslide. 
 
- 
-<H4>Output</H4>
- 
- <P>Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
+3. landslide_precip_soilm_DataAnalyses_final.ipynb
+      * Plot analysis that reads the exported CSV files created by `landslide_precip_soilm_DataExport_final.ipynb` above.
+      * Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
   
 <H2>Data & Formats</H2>
 
