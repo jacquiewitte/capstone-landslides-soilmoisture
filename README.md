@@ -109,8 +109,6 @@ This repository contains a file called `environment.yml` that contains the pytho
  
  
 <H2>Data & Formats</H2>
-
-<P>The README.md file will be updated regularly as data needs change.
  
 <ol type="1">
  <li><b>NASA Global Landslide Catalog (2007-2020)</b>
