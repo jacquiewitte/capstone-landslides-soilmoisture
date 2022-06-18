@@ -19,7 +19,7 @@ where and when these landslides occur by focussing the workflow on the state of 
 
   <li>Code presented here is helpful to those who want to know how to read/extract soil moisture parameters measured from NASA, USGS, and ESA satellites.
    
-  <li>The workflow should perform with any state who's landslide data is archived in the GLC.
+  <li>The workflow should perform with any state who's landslide data is archived in the NASA Global Landslide Catalog (GLC).
 </ul>
 
 <H2>Python Packages Used</H2>The following are python packages currently used to run the current list of jupyter notbooks in this repository.
@@ -60,10 +60,9 @@ This repository contains a file called `environment.yml` that contains the pytho
   
 <H2>Workflow</H2>
 
-- The README.md file will be updated regularly with guidance on the workflow.
-- The data are co-located with 2015-2020 landslide events in Colorado and other US states affected by landslides using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). 
-- CSV files have been created at stored in the `data/` folder that ties all the various soil and precipitation data together and can be read using the pandas package. 
-- If users simply want to work with the result, the can clone this repo and work with the CSV data files contained in the `data/` folder
+- Soil moisture and precipitation satellite data are co-located with 2015-2020 landslide events in Colorado and other US states affected by landslides using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). 
+- CSV files have been created and stored in the `data` directory that ties all the various soil and precipitation data together and can be read using the pandas package. 
+- If users simply want to work with the result, the can clone this repo and work with the CSV data files contained in the `data` folder
   
 <H4>Python Notebooks can be run in the following order:</H4>
  
@@ -94,7 +93,7 @@ This repository contains a file called `environment.yml` that contains the pytho
          - Oregon
          - Washington
 
-      * The result are two a pandas dataFrames that are exported as CSV files to the `data/` folder. For example,
+      * The result are two a pandas dataFrames that are exported as CSV files to the `data` folder. For example,
  
          - `glc_smap_esa_gpm_2015-2020_Colorado.csv` contains the 7-day accummulated precipitation and maximum soil moisture co-located to a GLC landslide.
  
@@ -102,7 +101,7 @@ This repository contains a file called `environment.yml` that contains the pytho
  
 3. landslide_precip_soilm_DataAnalyses_final.ipynb
       * Plot analysis that reads the exported CSV files created by `landslide_precip_soilm_DataExport_final.ipynb` above.
-      * Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
+      * Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots` folder.
   
 <H2>Data & Formats</H2>
  
