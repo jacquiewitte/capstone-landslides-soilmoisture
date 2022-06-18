@@ -53,11 +53,7 @@ This repository contains a file called `environment.yml` that contains the pytho
 - Once the environment is installed you can activate it using: `conda activate capstone-landslides-soilmoisture`.
 - To view a list of all conda environments available on your machine run: `conda info --envs`.
 - To view a list of all conda packages installed in capstone-landslides-soilmoisture run: `conda list`.
- 
-<H2>Notebooks</H2>
-
-- When notebooks are final the tag `_final.ipynb` will be added to the fiename.  
-  
+   
 <H2>Workflow</H2>
 
 - Soil moisture and precipitation satellite data are co-located with 2015-2020 landslide events in Colorado and other US states affected by landslides using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). 
