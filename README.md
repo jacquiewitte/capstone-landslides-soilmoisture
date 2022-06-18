@@ -69,42 +69,41 @@ This repository contains a file called `environment.yml` that contains the pytho
  
 1. capstone-study-area-final.ipynb
       * An introduction the study region and GLC statistics over Colorado.
+ 
 2. landslide_precip_soilm_DataExport_final.ipynb
       * Co-located SMAP and ESA CCI soil moistures with GPM precipitation products (daily and 30 min resolutions)
+ 
+      * Data Directories
+         - To run `landslide_precip_soilm_DataExport_final.ipynb` notebook, you need to download <b>daily 2015-2020</b> data listed in the "Data & Formats" section below.
+         - <b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
+         - Links to the data and instructions on what specifically to download are provided used in this study are provided in the "Data & Formats" section below
+
+      * Data directory structure under your home space (Mac/Linux syntax shown below)
+         - GLC data directory: `earth-analytics/data/capstone/landslide`
+         - GPM daily precipitation directory: `earth-analytics/data/capstone/gpm_westernUS`
+         - GPM IMERG 30min precipitation directory: `earth-analytics/data/capstone/precip_imerg`
+         - SMAP daily soil moisture directory:  `earth-analytics/data/capstone/smap_9km`
+         - ESA CCI soil moisture directory: `earth-analytics/data/capstone/esa_soil_moisture`
+ 
+ 
       * Users can choose a US state where landslides are archived in the GLC. Currently, the following states are included:
-        <ul>
-          <li> Colorado
-          <li> Idaho
-          <li> Utah
-          <li> California
-          <li> Oregon
-          <li> Washington
-        </ul>
-      * The result are two a pandas dataFrames that are exported to the `data/` folder. For example,
+         - Colorado
+         - Idaho
+         - Utah
+         - California
+         - Oregon
+         - Washington
+
+      * The result are two a pandas dataFrames that are exported as CSV files to the `data/` folder. For example,
  
          - `glc_smap_esa_gpm_2015-2020_Colorado.csv` contains the 7-day accummulated precipitation and maximum soil moisture co-located to a GLC landslide.
  
-         - `glc_smap_esa_gpm_2015-2020_7day_Colorado.csv` contains the precipitation and soil moisture co-located to a GLC landslide going back for 7-days prior to the landslide. 
-
+         - `glc_smap_esa_gpm_2015-2020_7day_Colorado.csv` contains the precipitation and soil moisture co-located to a GLC landslide going back for 7-days prior to the landslide.  
+ 
 3. landslide_precip_soilm_DataAnalyses_final.ipynb
       * Plot analysis that reads the exported CSV files created by `landslide_precip_soilm_DataExport_final.ipynb` above.
       * Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
- 
- <H4>Data Directories</H4>
-
- * To run `landslide_precip_soilm_DataExport_final.ipynb` notebook, you need to download <b>daily 2015-2020</b> data listed in the "Data & Formats" section below
-   * <b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
-   * Links to the data and instructions on what specifically to download are provided used in this study are provided in the "Data & Formats" section below
-
   
-* Data directory structure under your home space (Mac/Linux syntax shown below)
-  * GLC data directory: `earth-analytics/data/capstone/landslide`
-  * GPM daily precipitation directory: `earth-analytics/data/capstone/gpm_westernUS`
-  * GPM IMERG 30min precipitation directory: `earth-analytics/data/capstone/precip_imerg`
-  * SMAP daily soil moisture directory:  `earth-analytics/data/capstone/smap_9km`
-  * ESA CCI soil moisture directory: `earth-analytics/data/capstone/esa_soil_moisture`
-
- 
 <H2>Data & Formats</H2>
  
 <ol type="1">
