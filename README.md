@@ -56,7 +56,6 @@ This repository contains a file called `environment.yml` that contains the pytho
  
 <H2>Notebooks</H2>
 
-- All python notebooks are still in the development stage. 
 - When notebooks are final the tag `_final.ipynb` will be added to the fiename.  
   
 <H2>Workflow</H2>
@@ -65,22 +64,7 @@ This repository contains a file called `environment.yml` that contains the pytho
 - The data are co-located with 2015-2020 landslide events in Colorado and other US states affected by landslides using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). 
 - CSV files have been created at stored in the `data/` folder that ties all the various soil and precipitation data together and can be read using the pandas package. 
 - If users simply want to work with the result, the can clone this repo and work with the CSV data files contained in the `data/` folder
- 
-<H4>Data Directories</H4>
-
-* To run these notebooks, you need to download <b>daily 2015-2020</b> data listed in the "Data & Formats" section below
-   * <b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
-   * Links to the data and instructions on what specifically to download are provided used in this study are provided in the "Data & Formats" section below
-
   
-* Data directory structure under your home space (Mac/Linux syntax shown below)
-  * GLC data directory: `earth-analytics/data/capstone/landslide`
-  * GPM daily precipitation directory: `earth-analytics/data/capstone/gpm_westernUS`
-  * GPM IMERG 30min precipitation directory: `earth-analytics/data/capstone/precip_imerg`
-  * SMAP daily soil moisture directory:  `earth-analytics/data/capstone/smap_9km`
-  * ESA CCI soil moisture directory: `earth-analytics/data/capstone/esa_soil_moisture`
-
- 
 <H4>Python Notebooks can be run in the following order:</H4>
  
 1. capstone-study-area-final.ipynb
@@ -106,6 +90,20 @@ This repository contains a file called `environment.yml` that contains the pytho
       * Plot analysis that reads the exported CSV files created by `landslide_precip_soilm_DataExport_final.ipynb` above.
       * Output are plots inline with the notebooks. Noteworthy plots are exported as PNG files saved under the `plots/` folder.
  
+ <H4>Data Directories</H4>
+
+ * To run `landslide_precip_soilm_DataExport_final.ipynb` notebook, you need to download <b>daily 2015-2020</b> data listed in the "Data & Formats" section below
+   * <b>Note:</b> The data files are large, particularly for SMAP which ignore subsetting. 
+   * Links to the data and instructions on what specifically to download are provided used in this study are provided in the "Data & Formats" section below
+
+  
+* Data directory structure under your home space (Mac/Linux syntax shown below)
+  * GLC data directory: `earth-analytics/data/capstone/landslide`
+  * GPM daily precipitation directory: `earth-analytics/data/capstone/gpm_westernUS`
+  * GPM IMERG 30min precipitation directory: `earth-analytics/data/capstone/precip_imerg`
+  * SMAP daily soil moisture directory:  `earth-analytics/data/capstone/smap_9km`
+  * ESA CCI soil moisture directory: `earth-analytics/data/capstone/esa_soil_moisture`
+
  
 <H2>Data & Formats</H2>
  
