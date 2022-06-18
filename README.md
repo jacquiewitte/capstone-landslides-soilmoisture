@@ -57,8 +57,7 @@ This repository contains a file called `environment.yml` that contains the pytho
 <H2>Notebooks</H2>
 
 - All python notebooks are still in the development stage. 
-- When notebooks are final the tag `_final.ipynb` will be added to the fiename. 
-- All notebooks for testing code are placed in the folder `test_scripts/`. Code in here are exploratory only and should be ignored. Code from these notebooks are for development of the final notebooks. 
+- When notebooks are final the tag `_final.ipynb` will be added to the fiename.  
   
 <H2>Workflow</H2>
 
