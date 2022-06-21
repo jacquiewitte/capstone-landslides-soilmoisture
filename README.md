@@ -11,7 +11,7 @@
  
   
 <H2>Purpose</H2>To address the need to improve our understanding of landslides caused by rainfall. To better characterize
-where and when these landslides occur by focussing the workflow on the state of Colorado as a case study region.
+landslide properties by focussing the workflow on the state of Colorado as a case study region.
 
 <H2>Contributions</H2>
 <ul type="disk">
@@ -35,6 +35,7 @@ where and when these landslides occur by focussing the workflow on the state of 
   <li>numpy
   <li>pandas
   <li>re
+  <li> rioxarray
   <li>scipy
   <li>seaborn
   <li>shapely
@@ -58,7 +59,7 @@ This repository contains a file called `environment.yml` that contains the pytho
 
 - Soil moisture and precipitation satellite data are co-located with 2015-2020 landslide events in Colorado and other US states affected by landslides using the Global Landslide Catalog (GLC) (refer to "Data & Formats" below). 
 - CSV files have been created and stored in the `data` directory that ties all the various soil and precipitation data together and can be read using the pandas package. 
-- If users simply want to work with the result, the can clone this repo and work with the CSV data files contained in the `data` folder
+- If users simply want to work with the analysis portion, the can clone this repo and work with the CSV data files contained in the `data` folder
   
 <H4>Python Notebooks can be run in the following order:</H4>
  
@@ -144,9 +145,18 @@ This repository contains a file called `environment.yml` that contains the pytho
        <li> This capstone uses 30 min GPM IMERG data pre-assembled and saved in CSV format by Dr. Elsa Culler (CU-Boulder). The beauty of this data set is that precipitation values have been subset and co-located with GLC landslides by their ID, latitude, and longitude. 
        <li> Instructions: Request this data set by emailing Elsa.Culler@colorado.edu
        <li> Citation: https://doi.org/10.5067/GPM/IMERG/3B-HH/06
-       <li> Format: CSV
+       <li> Format: CSV format
     </ul>
   </li>
+  <li><b>POLARIS 30m Probabilistic Soil Properties US</b>
+    <ul type="disk"> 
+       <li> LINK: http://hydrology.cee.duke.edu/POLARIS/PROPERTIES/v1.0/ksat/mode/5_15/
+       <li> Instructions: See function get_polaris_ksat() in landslide_precip_soilm_DataExport_final.ipynb on how to read these files from the url above.
+       <li> Citation: https://doi.org/10.1029/2018WR022797
+       <li> Format: tif files
+    </ul>
+  </li>
+
  </ol>  
  
 <!-- this has not so relevant
