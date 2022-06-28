@@ -2,7 +2,7 @@
 
 <H1>capstone-landslides-soilmoisture project repository</H1>
 
-<H1>Exploring patterns between soil moisture and rainfall in the western US using satellite observations</H1>
+<H1>Exploring patterns between soil moisture and rainfall during landslide event in the western US using satellite observations</H1>
 
 <H2>Description</H2>
 <P>Landslide prediction is important. There are negative economic, transportation, and habitat impacts resulting from landslides. There are climate change implications where drought or heavier rains affect the number and severity of landslides. The goal of this project is to examine the relationship of soil moisture and precipitation over Colorado, USA. Colorado experiences many landslides each year because of its steep terrain. Some of them occur in remote areas that are difficult to monitor, with most occurring west of the Front Range. Damage from landslides in Colorado is estimated to be millions of dollars per year. A significant fraction of the Colorado population lives in the Rockies. It is also a popular tourist destination year-round and people are moving into the Rockies - it’s a popular area, to say the least.
